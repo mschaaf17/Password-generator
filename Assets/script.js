@@ -55,6 +55,9 @@ var isSymbols = window.confirm("Do you want to include symbols?");
 if (isSymbols) {
   allowedCharacters = allowedCharacters.concat(symbols);
 }
+else {
+
+};
 var password = "";
 //loop variable i create i will return
 for(var i = 1; i <= passwordLength; i++) {
