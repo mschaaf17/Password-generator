@@ -31,14 +31,14 @@ if (isNumber) {
   allowedCharacters = allowedCharacters.concat(numbers);
 }
 else {
-}
-
+};
 
 var isLowerCase = window.confirm("Do you want to include a lowercase letter?");
 if (isLowerCase) {
   allowedCharacters = allowedCharacters.concat(lowerCase);
   console.log(isLowerCase);
 } 
+///DO I NEED ANY ELSE STATEMENTS?
 else {
   console.log("Dont add a lowercase letter!")
 };
